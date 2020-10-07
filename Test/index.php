@@ -11,15 +11,17 @@
     <?php
     //Latihan php
     echo "Hello World - Echo<br>";
-    print "Hello World - Print<br>";
+    Print "Hello World - Print<br>";
 
     //konstatnta dan variabel
     define("Pi", 3.142857142857143);
-    echo Pi . "<br>";
-
+    echo Pi."<br>";
+    $arr = [
+    
+    ]
     $tahun = 2020;
     echo "Tahun $tahun.<br>";
-
+    
     //operator aritmatika
     $pengurangan = 3033032020 - 3033031924;
     $penjumlahan = 3033032020 + 3033031924;
@@ -32,7 +34,7 @@
     echo "3033032020 * 3033031924 = $perkalian<br>";
     echo "3033032020 / 3033031924 = $pembagian<br>";
     echo "200 % 4 = $hasilbagi<br>";
-
+    
     //Operator Assigment
     $tambahdua = 4;
     $kurangdua = 6;
