@@ -16,9 +16,7 @@
     //konstatnta dan variabel
     define("Pi", 3.142857142857143);
     echo Pi."<br>";
-    $arr = [
     
-    ]
     $tahun = 2020;
     echo "Tahun $tahun.<br>";
     
