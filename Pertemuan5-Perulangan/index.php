@@ -37,7 +37,6 @@
         if ($i > 500) {
             break;
         }
-
         echo $i;
         echo '<br>';
     }
