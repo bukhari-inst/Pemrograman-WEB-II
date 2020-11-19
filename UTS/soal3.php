@@ -10,16 +10,19 @@
 <body>
     <?php
     for ($b = 0; $b <= 100; $b++) {
-        if ($b % 3 == 0) {
+        if ($b % 3 == 0 && $b % 5 == 0) {
             echo $b . '<br>';
-            echo 'Fizz';
+            echo 'FizzBuzz';
         } else if ($b % 5 == 0) {
             echo $b . '<br>';
             echo 'Buzz';
-        } else if ($b % 3 == 0 && $b % 5 == 0) {
+        } else if ($b % 3 == 0) {
             echo $b . '<br>';
-            echo 'FizzBuzz';
+            echo 'Fizz';
         }
+        // else {
+        //     echo $b . '<br>';
+        // }
         echo '<br>';
     }
     ?>

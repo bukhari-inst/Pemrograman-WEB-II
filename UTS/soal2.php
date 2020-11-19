@@ -21,7 +21,7 @@
     echo '-----';
     echo '<br>';
     // Ketik code Anda dibawah
-    $afterPrice = $price + $price * $taxRat;
+    $afterPrice = $price + $price * $taxRate;
     if ($money > $afterPrice) {
         echo 'Anda dapat membeli item ini!';
     } else if ($money == $afterPrice) {

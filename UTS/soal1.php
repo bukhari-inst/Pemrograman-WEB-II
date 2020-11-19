@@ -20,7 +20,7 @@
 
     // Ketik code Anda dibawah
     $afterPrice = $price + $price * $taxRate;
-    echo 'Harga setelah pajak adalah $' . $taxIncludedPrice;
+    echo 'Harga setelah pajak adalah $' . $afterPrice;
 
     ?>
 </body>
